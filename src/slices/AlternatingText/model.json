@@ -12,10 +12,10 @@
       "description": "Default",
       "imageUrl": "",
       "primary": {
-        "textgroup": {
+        "text_group": {
           "type": "Group",
           "config": {
-            "label": "TextGroup",
+            "label": "Text Group",
             "repeat": true,
             "fields": {
               "heading": {
@@ -30,10 +30,10 @@
               "body": {
                 "type": "StructuredText",
                 "config": {
-                  "label": "Body",
+                  "label": "Body ",
                   "placeholder": "",
                   "allowTargetBlank": true,
-                  "multi": "paragraph,strong,em,heading2"
+                  "multi": "paragraph,strong,em"
                 }
               }
             }

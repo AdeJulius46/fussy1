@@ -83,25 +83,25 @@ export type PageDocument<Lang extends string = string> =
 export type AllDocumentTypes = PageDocument;
 
 /**
- * Item in *AlternatingText → Default → Primary → TextGroup*
+ * Item in *AlternatingText → Default → Primary → Text Group*
  */
-export interface AlternatingTextSliceDefaultPrimaryTextgroupItem {
+export interface AlternatingTextSliceDefaultPrimaryTextGroupItem {
   /**
-   * Heading field in *AlternatingText → Default → Primary → TextGroup*
+   * Heading field in *AlternatingText → Default → Primary → Text Group*
    *
    * - **Field Type**: Title
    * - **Placeholder**: *None*
-   * - **API ID Path**: alternating_text.default.primary.textgroup[].heading
+   * - **API ID Path**: alternating_text.default.primary.text_group[].heading
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
   heading: prismic.TitleField;
 
   /**
-   * Body field in *AlternatingText → Default → Primary → TextGroup*
+   * Body  field in *AlternatingText → Default → Primary → Text Group*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: alternating_text.default.primary.textgroup[].body
+   * - **API ID Path**: alternating_text.default.primary.text_group[].body
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
   body: prismic.RichTextField;
@@ -112,15 +112,15 @@ export interface AlternatingTextSliceDefaultPrimaryTextgroupItem {
  */
 export interface AlternatingTextSliceDefaultPrimary {
   /**
-   * TextGroup field in *AlternatingText → Default → Primary*
+   * Text Group field in *AlternatingText → Default → Primary*
    *
    * - **Field Type**: Group
    * - **Placeholder**: *None*
-   * - **API ID Path**: alternating_text.default.primary.textgroup[]
+   * - **API ID Path**: alternating_text.default.primary.text_group[]
    * - **Documentation**: https://prismic.io/docs/field#group
    */
-  textgroup: prismic.GroupField<
-    Simplify<AlternatingTextSliceDefaultPrimaryTextgroupItem>
+  text_group: prismic.GroupField<
+    Simplify<AlternatingTextSliceDefaultPrimaryTextGroupItem>
   >;
 }
 
@@ -410,7 +410,7 @@ declare module "@prismicio/client" {
       PageDocumentDataSlicesSlice,
       AllDocumentTypes,
       AlternatingTextSlice,
-      AlternatingTextSliceDefaultPrimaryTextgroupItem,
+      AlternatingTextSliceDefaultPrimaryTextGroupItem,
       AlternatingTextSliceDefaultPrimary,
       AlternatingTextSliceVariation,
       AlternatingTextSliceDefault,

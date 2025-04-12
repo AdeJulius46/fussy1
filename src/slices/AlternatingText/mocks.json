@@ -3,7 +3,7 @@
 		"__TYPE__": "SharedSliceContent",
 		"variation": "default",
 		"primary": {
-			"textgroup": {
+			"text_group": {
 				"__TYPE__": "GroupContentType",
 				"value": [
 					{
@@ -17,7 +17,7 @@
 										{
 											"type": "heading2",
 											"content": {
-												"text": "Equally"
+												"text": "Including"
 											}
 										}
 									]
@@ -31,7 +31,7 @@
 										{
 											"type": "paragraph",
 											"content": {
-												"text": "Nisi in ad velit non veniam eiusmod proident laborum aliqua dolore irure esse esse sunt. Mollit proident minim tempor commodo sit esse culpa."
+												"text": "Ad aliqua proident magna ut pariatur aute commodo eu culpa et et. Aute ex excepteur enim nostrud reprehenderit ut. Est aliquip aliquip officia do eu occaecat aute fugiat in nisi nisi tempor culpa."
 											}
 										}
 									]
